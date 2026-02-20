@@ -10,17 +10,13 @@ int main()
 
     if (number < 0)
     {
-        int number;
         cout<<"Please enter a positive number.\n";
         cin >> number;
     }
+    if (number % 2 == 0)
+        cout << number << " is even number.\n";
     else
-    {
-        if (number % 2 == 0)
-            cout << number << " is even number.\n";
-        else
-            cout <<number<< " is odd number.\n";
-        
-    }
+        cout <<number<< " is odd number.\n";
+    
     return 0;
 }
