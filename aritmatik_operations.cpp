@@ -8,7 +8,7 @@ int main()
     int y;
     double z;
 
-    cout << "Enter two integar: \n";
+    cout << "Enter two integer: \n";
     cin >> x;
     cin >> y;
     cout << "Enter a double: \n";
